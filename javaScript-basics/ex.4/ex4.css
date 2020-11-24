@@ -1,0 +1,129 @@
+body {
+  font-family: "Noto Sans", sans-serif;
+  background: #82f4fc;
+  background: -webkit-linear-gradient(to left, #82f4fc, #1fe240);
+  background: linear-gradient(to left, #82f4fc, #1fe240);
+}
+
+#container {
+  height: 85%;
+  width: 450px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+h1 {
+  background: #1f030c;
+  color: white;
+  margin: 0;
+  padding: 10px 100px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: normal;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+p {
+  text-align: center;
+}
+
+form input[type="text"] {
+  width: 90%;
+}
+
+input {
+  padding-left: 20px;
+}
+
+#costul {
+  font-size: 14px;
+  color: #red;
+  background-color: #f7f7f7;
+  width: 90%;
+  padding: 5px 5px 8px 8px;
+}
+
+#costul:focus {
+  background: #fff;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+#persons {
+  width: 90%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  color: #red;
+  background-color: #f7f7f7;
+  font-size: 14px;
+}
+
+.dollarSign {
+  display: inline;
+}
+
+#qualify {
+  width: 90%;
+  font-size: 14px;
+  padding: 13px 13px 20px 20px;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: #82f4fc;
+  border-radius: 25px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+}
+
+#calculate {
+  color: black;
+}
+
+button:hover {
+  background: #1fe240;
+  border-bottom-color: #82f4fc;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#suma {
+  font-size: 30px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#suma:before {
+  content: "Tip amount";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+#suma sup {
+  font-size: 20px;
+  top: -18px;
+}
+
+#suma small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
